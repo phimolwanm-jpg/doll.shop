@@ -1,5 +1,3 @@
-# M:/doll_shop/ui_order_history.py (วางทับไฟล์เดิมทั้งหมด)
-
 import customtkinter as ctk
 from models import Session, Order
 from database import Database

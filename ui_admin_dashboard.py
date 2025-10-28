@@ -1,5 +1,3 @@
-# M:/doll_shop/ui_admin_dashboard.py (ไฟล์ใหม่)
-
 import customtkinter as ctk
 from tkinter import ttk
 

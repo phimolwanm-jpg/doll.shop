@@ -1,5 +1,3 @@
-# M:/doll_shop/ui_receipt.py (ไฟล์ใหม่)
-
 import customtkinter as ctk
 from tkinter import messagebox
 from datetime import datetime

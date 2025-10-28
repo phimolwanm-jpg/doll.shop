@@ -1,5 +1,3 @@
-# M:/doll_shop/ui_product_list.py (วางทับไฟล์เดิมทั้งหมด)
-
 import customtkinter as ctk
 from models import Product
 from tkinter import messagebox

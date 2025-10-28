@@ -1,5 +1,3 @@
-# M:/doll_shop/ui_about.py
-
 import customtkinter as ctk
 from PIL import Image
 import os

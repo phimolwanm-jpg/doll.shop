@@ -1,5 +1,3 @@
-# M:/doll_shop/ui_thankyou.py (วางทับไฟล์เดิมทั้งหมด)
-
 import customtkinter as ctk
 
 class ThankYouWindow(ctk.CTkFrame):

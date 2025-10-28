@@ -1,5 +1,3 @@
-# M:/doll_shop/assets_loader.py (วางทับไฟล์เดิมทั้งหมด)
-
 import os
 from PIL import Image
 import customtkinter as ctk

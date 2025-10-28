@@ -1,5 +1,3 @@
-# M:/doll_shop/database.py (วางทับไฟล์เดิมทั้งหมด)
-
 import sqlite3
 import bcrypt
 from datetime import datetime

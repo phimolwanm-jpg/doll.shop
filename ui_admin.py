@@ -1,5 +1,3 @@
-# M:/doll_shop/ui_admin.py (วางทับไฟล์เดิมทั้งหมด)
-
 import customtkinter as ctk
 from tkinter import ttk, messagebox, filedialog
 from PIL import Image
@@ -41,7 +39,7 @@ class AdminWindow(ctk.CTkFrame):
         header_frame.grid(row=0, column=0, columnspan=2, padx=30, pady=20, sticky="ew")
         ctk.CTkLabel(header_frame, text="⚙️ จัดการสินค้าในร้าน", font=ctk.CTkFont(size=28, weight="bold")).pack(side="left")
         
-        # แก้ไขปุ่มกลับไปหน้าหลัก
+       
         back_button = ctk.CTkButton(header_frame, text="< กลับไปหน้าหลัก", fg_color="transparent", text_color="gray50", hover=False,
                                     command=lambda: self.main_app.navigate_to('HomeWindow'))
         back_button.pack(side="right")

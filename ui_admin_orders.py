@@ -1,5 +1,3 @@
-# M:/doll_shop/ui_admin_orders.py (สร้างไฟล์ใหม่หรือวางทับ)
-
 import customtkinter as ctk
 from tkinter import ttk, messagebox
 

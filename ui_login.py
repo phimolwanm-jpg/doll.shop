@@ -1,5 +1,3 @@
-# M:/doll_shop/ui_login.py
-
 import customtkinter as ctk
 from tkinter import messagebox
 import re

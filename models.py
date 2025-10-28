@@ -1,5 +1,3 @@
-# M:/doll_shop/models.py (วางทับไฟล์เดิมทั้งหมด)
-
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Optional, List
@@ -117,13 +115,13 @@ class Session:
             cls._instance.current_user = None
         return cls._instance
 
-    # vvvv ----- แก้ไขฟังก์ชันนี้ ----- vvvv
+    
     def login(self, user: User):
         """
         แก้ไขให้รับ User object เข้ามาโดยตรง ไม่ต้องแปลงซ้ำ
         """
         self.current_user = user
-    # ^^^^ ----- สิ้นสุดส่วนแก้ไข ----- ^^^^
+    
 
     def logout(self):
         self.current_user = None

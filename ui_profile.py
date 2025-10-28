@@ -1,5 +1,3 @@
-# M:/doll_shop/ui_profile.py (วางทับไฟล์เดิมทั้งหมด)
-
 import customtkinter as ctk
 from tkinter import messagebox
 import bcrypt
